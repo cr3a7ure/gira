@@ -28,17 +28,6 @@ Track project status.
   - effort: dull
 - comments:
 
-#### feature: Add custom URL for the site
-
-- status: DONE
-- title: Add custom URL for the site
-- description:
-  - what: Buy a custom domain name to use in github pages instead of the default one.
-  - why: A custom URL might seem nice for this project and easier to share.
-  - how: Buy the domain and follow up github's [guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain).
-  - effort: dull
-- comments: nothing
-
 ## BACKLOG - BLOG
 
 ### Features
