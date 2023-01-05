@@ -1,6 +1,6 @@
 # gira
 
-A foster child of Jira and Git.
+A love child of Jira and Git.
 Use a familiar technology (git) and a familiar logic (jira) in your repo.
 
 > *This is work in progress if you happen to stumble upon.
