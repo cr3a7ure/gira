@@ -9,6 +9,8 @@ for a great amount of time, neither with a team.*
 
 ## Conventions
 
+----
+
 If you ever happen to design and develop any sort of software project, you realise
 what a great tool git is. Well, someone might say that you cannot build
 software without git, or another repository management tool. Thus, as a
@@ -39,6 +41,8 @@ a lot and have to switch between contexts.
 
 ## What and How
 
+ ---
+
 gira, is one file, lets call it `STATUS.md` and some conventions we use
 between us to communicate and describe the job at hand. Currently it is
 in early steps of realisation. As someone will try to use it on personal
@@ -67,6 +71,8 @@ help populate the description fields.
   - effort: dull
 
 ## Examples
+
+ ---
 
 Without further wait below is the initial version of a `STATUS.md` and a
 part of `git log -p -- STATUS.md` output
@@ -180,6 +186,8 @@ Date:   Thu Jan 5 12:09:42 2023 +0200
 
 ## Other Approaches
 
+---
+
 There are other ways to track and organise such work but I thought they
 miss something in one way or add too much in another way.
 
@@ -191,7 +199,7 @@ around repos often. One line might not be suitable to describe a task
 in order for someone ( collaborator or the editor himself ) to remember the
 task, its details, considerations etc.
 
-Propose: Add an alias to `.gitconfig` displaying a simple TODO list from
+>Propose: Add an alias to `.gitconfig` displaying a simple TODO list from
 the detailed file, or even a hook to extract it as separate `TODO.md`.
 
 ### conventional commits
@@ -201,11 +209,10 @@ are a way to standardise the commit message,
 not the task that would be turned to commit. Conventional commits are a great
 way to track **DONE** issues.
 
-Propose:
-
-- Embrace conventions of conventional commits on naming things,
+>Propose:
+>- Embrace conventions of conventional commits on naming things,
 such as the tasks need to be done ( feature/chore/fix ).
-- Populate the commit message of a **DONE** task with its description.
+>- Populate the commit message of a **DONE** task with its description.
 
 The use of conventional commits is proposed too. Maybe add some automations,
 such as create a branch directly from the `STATUS.md` file.
@@ -228,10 +235,12 @@ It seems a great choice for many collaborators and users of the final artifact.
 That would be considered the next step, if the repository grows out and becomes
 a thing of its self but keep the "management" at the developers team.
 
-Propose: Possible integration between **issue** number with the tasks
+>Propose: Possible integration between **issue** number with the tasks
 described in the `STATUS.md`.
 
 ## Tooling
+
+---
 
 As described previously, git is our tool. We can leverage it and create
 some useful functionality in order to ease our life.
@@ -266,9 +275,11 @@ Those are some aliases came to mind, more will be added.
 
 ### git commit hooks
 
-TOD
+>TOD
 
 ## Extras
+
+ ---
 
 ### The effort field
 
