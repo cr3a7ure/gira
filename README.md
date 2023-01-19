@@ -263,6 +263,15 @@ On our scenarios, we could use some aliases as seen below:
   gidone = "!f() { echo \"-> DONE\"; git log -p STATUS.md | grep \"status: DONE\" -A 2 --no-group-separator | grep -v status | tac | sed 's/- type: /  - /g' | sed 'H;1h;$!d;g;s/\\n- title *//g'; }; f"
 ```
 
+Example output:
+
+```bash
+└─ $ ▶ git giblog
+-> BACKLOG
+  - bug: www has problem
+  - feature: Create examples to display
+```
+
 There is some bash magic in there, but the thing is grep and filter.
 Note also the pattern `gi*` so as to keep a naming convention and not mess
 probably with other aliases.
