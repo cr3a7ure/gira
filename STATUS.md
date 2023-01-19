@@ -10,6 +10,7 @@ Track project status.
 
 - status: WIP
 - title: Add a Jekyll template
+- type: feature
 - description:
   - what: A fancy template should be add, since that white is a bit boring.
   - why: No practical reason.
@@ -21,6 +22,7 @@ Track project status.
 
 - status: DONE
 - title: Enforce HTTPS on github pages
+- type: feature
 - description:
   - what: Enforce HTTPS for the website.
   - why: Complaince rather than security at this point.
@@ -36,6 +38,7 @@ Track project status.
 
 - status: BLOG
 - title: Create examples to display
+- type: feature
 - description:
   - what: Since there are no projects yet to fully display the actuall thought, we should create some.
   - why: People (the editor too) need to see whether this thought experiment has any value.
@@ -50,6 +53,7 @@ Track project status.
 
 - status: BLOG
 - title: www has problem
+- type: bug
 - description:
   - indication: www.gira.fun does not work.
   - cause: github panel displays an error during DNS validation. `www.gira.fun` returns `InvalidDNSError`.
