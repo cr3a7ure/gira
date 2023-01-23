@@ -4,9 +4,13 @@ Track project status.
 
 ## BOARD
 
-### Work In Progress - WIP
+| TODO | WIP  | BLOK | BLOG | DONE |
+|------|------|------|------|------|
+| 0    | 1    | 0    | 2    | 1    |
 
-#### feature: Add a Jekyll template
+## TODO - WIP - BLOK
+
+### feature: Add a Jekyll template
 
 - status: WIP
 - title: Add a Jekyll template
@@ -18,7 +22,7 @@ Track project status.
   - effort: dull
 - comments:
 
-#### feature: Enforce HTTPS
+### feature: Enforce HTTPS
 
 - status: DONE
 - title: Enforce HTTPS on github pages
@@ -32,9 +36,7 @@ Track project status.
 
 ## BACKLOG - BLOG
 
-### Features
-
-#### feature: Create examples to display
+### feature: Create examples to display
 
 - status: BLOG
 - title: Create examples to display
@@ -47,9 +49,7 @@ Track project status.
   - effort: doable
 - comments:
 
-### Bugs
-
-#### bug: fix www for the domain name
+### bug: fix www for the domain name
 
 - status: BLOG
 - title: www has problem
@@ -59,4 +59,26 @@ Track project status.
   - cause: github panel displays an error during DNS validation. `www.gira.fun` returns `InvalidDNSError`.
   - fix: Create a CNAME alias on the DNS side.
   - effort: dull
+- comments: nothing
+
+### feature: Refactor git alias
+
+- status: BLOG
+- title: Refactor git alias.
+- description:
+  - what: Refactor already created git aliases.
+  - why:
+  - how:
+  - effort: ~
+- comments: nothing
+
+### feature: Create git alias to create easier features.
+
+- status: BLOG
+- title: Create git alias to create easier features.
+- description:
+  - what: Use git aliases to polulate a feature only by title.
+  - why:
+  - how:
+  - effort: ~
 - comments: nothing
