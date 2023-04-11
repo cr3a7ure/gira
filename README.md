@@ -282,6 +282,23 @@ On our scenarios, we could use some aliases as seen below:
 | $todo| $wip| $blok| $blog| $done|\
 \" STATUS.md;\
     }; f"
+
+  giadd = "!f() {\
+    line_n=$(grep '## TODO' STATUS.md -n | cut -d: -f1);\
+    sed -i \" $((line_n+1))a \\\
+### feature: $1\\n\
+\\n\
+- status: WIP\\n\
+- title: $1\\n\
+- type: feature\\n\
+- description:\\n\
+  - what:\\n\
+  - why:\\n\
+  - how:\\n\
+  - effort: dull\\n\
+- comments:\\n\
+\" STATUS.md;\
+    }; f"
 ```
 
 Example output:
@@ -300,6 +317,7 @@ probably with other aliases.
 - giblog: display **Backlog** in the form of `<type>: <title>`
 - giwip: display **Work In Progress** in the form of `<type>: <title>`
 - gidone: display **Done** in the form of `<type>: <title>` from the git log history of the file.
+- giadd: add a feature by its title as in `git giadd "new feature - populate later"`.
 
 Those are some aliases came to mind, more will be added.
 

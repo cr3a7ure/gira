@@ -22,18 +22,6 @@ Track project status.
   - effort: dull
 - comments:
 
-### feature: Enforce HTTPS
-
-- status: DONE
-- title: Enforce HTTPS on github pages
-- type: feature
-- description:
-  - what: Enforce HTTPS for the website.
-  - why: Complaince rather than security at this point.
-  - how: There is a guide to follow [here](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)
-  - effort: dull
-- comments:
-
 ## BACKLOG - BLOG
 
 ### feature: Create examples to display
@@ -72,9 +60,9 @@ Track project status.
   - effort: ~
 - comments: nothing
 
-### feature: Create git alias to create easier features.
+### feature: Create git alias to create easier features
 
-- status: BLOG
+- status: DONE
 - title: Create git alias to create easier features.
 - description:
   - what: Use git aliases to polulate a feature only by title.
